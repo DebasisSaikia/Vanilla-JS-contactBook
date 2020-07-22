@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+        integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+        crossorigin="anonymous"></script>
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="contact_manager">
+            <div class="head">Contact Book</div>
+            <div class="contact_header">
+                <i class="fas fa-user-friends  fa-6x contact_logo"></i>
+
+            </div>
+            <div class="contact_form">
+                <form onsubmit="submitContact(event)">
+                    <input id="name" type="text" placeholder="Type Contact Name">
+                    <input id="number" type="text" placeholder=" Enter Contact Number">
+                    <button type="submit">Add Contact</button>
+                </form>
+            </div>
+            <div class="contact_body">
+                
+            </div>
+        </div>
+    </div>
+    <!-- js code -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

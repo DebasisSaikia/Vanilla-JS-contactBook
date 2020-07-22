@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+   /* background-color: #27ae60; */
+   background-image: linear-gradient(120deg, #2980b9, #27ae60);
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.color_primary{
+    color: #27ae60;
+}
+.del{
+    color: #c0392b;
+    cursor: pointer;
+}
+.del:hover {
+   font-size: 25px;
+}
+
+.contact_manager{
+    width: 450px;
+    height: 600px;
+    background-color: #ecf0f1;
+    border-radius: 1px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+}
+
+
+.head{
+    text-align: center;
+    height: 50px;
+    margin:  auto;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    /* background-color: #2980b9; */
+    background-image:linear-gradient(120deg, #f6d365, #e67e22);
+    color: black;
+    letter-spacing: 4px;
+}
+
+.contact_header{
+    text-align: center;
+    padding: 20px;
+}
+
+.contact_logo{
+    color: seagreen;
+}
+
+.contact_form{
+    padding: 0 20px;
+ 
+}
+
+.contact_form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    /* background-color: #2980b9; */
+    background-image: linear-gradient(120deg, #7f8fa6, #40739e);
+    
+    border: none;
+    
+}
+
+.contact_form button[type='submit']{
+    background-color: #fff;
+    border: 2px solid #16a085;
+    color: #16a085;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button[type='submit']:hover{
+    background-color: #16a085;
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+}
+
+.contact_body{
+height: 200px;
+padding: 20px 20px;
+overflow-y: scroll;
+}
+
+.contact_item{
+    display: flex;
+    align-items: center;
+    background-color: #bdc3c7;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 3px rgba(226, 221, 221, 0.7);
+}
+
+.contact_item_info{
+    margin-left: 10px;
+    margin-right: auto;
+}
